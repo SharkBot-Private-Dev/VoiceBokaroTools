@@ -1,0 +1,1 @@
+uv run pyinstaller --clean --noconfirm --onefile --noconsole --icon=icon.ico --hidden-import=pydub cut.py

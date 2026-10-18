@@ -1,0 +1,14 @@
+[project]
+name = "voicebokarotools"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pydub>=0.25.1",
+]
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.22.3",
+]
